@@ -32,3 +32,14 @@ contactForm.addEventListener('submit', event => {
   // code pour traiter le formulaire
 });
 
+// Sélectionne le bouton du menu burger
+const burgerButton = document.querySelector('.burger-button');
+
+// Sélectionne la liste des éléments de navigation
+const navBar = document.querySelector('nav ul');
+
+// Ajoute un écouteur d'événement sur le clic du bouton burger
+burgerButton.addEventListener('click', () => {
+  // Ajoute ou supprime la classe "active" sur la liste des éléments de navigation
+  navList.classList.toggle('active');
+});
