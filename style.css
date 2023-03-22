@@ -1,0 +1,83 @@
+/* Styles généraux */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Barre de navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #eee;
+}
+
+/* Page d'accueil */
+#accueil {
+  background-image: url(images/accueil.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#accueil h1 {
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+/* Galerie */
+#categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.category {
+  margin-right: 10px;
+}
+.category a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+}
+.category a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Tarifs et prestations */
+.prestation {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.prestation h3 {
+  margin-top: 0;
+}
+.prestation p {
+  margin-bottom: 0;
+}
