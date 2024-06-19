@@ -43,3 +43,6 @@ burgerButton.addEventListener('click', () => {
   // Ajoute ou supprime la classe "active" sur la liste des éléments de navigation
   navList.classList.toggle('active');
 });
+
+
+// refonte du projet en cours
